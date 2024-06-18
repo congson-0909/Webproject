@@ -1,0 +1,66 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+ ----------
+ ----------
+ ----------
+ vid 20
+    src/main/java/com/codeElevate/ServiceBookingSystem/services/client
+src/main/java/com/codeElevate/ServiceBookingSystem/controller/ClientController.java !! đổi cái dòng command ở import
+vid 21
+    src/main/java/repository/Ad,User
+    src/main/java/com/codeElevate/ServiceBookingSystem/services/client
+vid 22
+vid 23
+    src/main/java/enums/ReservationStatus.java
+    src/main/java/enums/ReviewStatus.java
+    src/main/java/com/codeElevate/ServiceBookingSystem/entity/Reservation.java
+    src/main/java/com/codeElevate/ServiceBookingSystem/enums/ReservationStatus.java
+    src/main/java/com/codeElevate/ServiceBookingSystem/enums/ReviewStatus.java
+    src/main/java/com/codeElevate/ServiceBookingSystem/dto/ReservationDTO.java
+
+vid 24
+    src/main/java/com/codeElevate/ServiceBookingSystem/services/client/ClientServiceImpl.java
+    src/main/java/com/codeElevate/ServiceBookingSystem/services/client/ClientService.java
+    src/main/java/com/codeElevate/ServiceBookingSystem/controller/ClientController.java
+
+vid 25
+    src/main/java/com/codeElevate/ServiceBookingSystem/dto/AdDetailsForClientDTO.java
+    src/main/java/com/codeElevate/ServiceBookingSystem/services/client/ClientServiceImpl.java
+    src/main/java/com/codeElevate/ServiceBookingSystem/services/client/ClientService.java
+    src/main/java/com/codeElevate/ServiceBookingSystem/controller/ClientController.java
+
+vid 27
+    src/main/java/com/codeElevate/ServiceBookingSystem/services/company/CompanyServiceImpl.java
+    src/main/java/com/codeElevate/ServiceBookingSystem/services/company/CompanyService.java
+    src/main/java/com/codeElevate/ServiceBookingSystem/controller/CompanyController.java
